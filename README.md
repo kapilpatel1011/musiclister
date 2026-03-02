@@ -104,3 +104,19 @@ Prerequisites
 Ensure Flutter is installed on your machine.
 
 Target Android SDK: 26 to 32.
+
+Clone the repository:
+
+Bash
+git clone https://github.com/kapilpatel1011/musiclister
+Install dependencies:
+
+Bash
+flutter pub get
+Permissions:
+Ensure INTERNET permissions and <queries> for https are present in your AndroidManifest.xml.
+
+Run the application:
+
+Bash
+flutter run
